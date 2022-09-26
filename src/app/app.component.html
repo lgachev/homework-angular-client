@@ -3,4 +3,4 @@
 <slider [title]='blueTitle' [value]="blueValue" (emitSliderValueEvent)="sliderUpdate($event, Color.BLUE)"></slider>
 <input #custom_text type="text" [value]="textValue" (change)="changeText(custom_text.value)">
 
-<div class='div-basic' style="{{getDynamicStyle() + getDynamicStyle()}}">{{textValue}}</div>
+<div class='div-basic' style="{{getDynamicStyle() + getDynamicStyle()}}">&nbsp;{{textValue}}&nbsp;</div>
